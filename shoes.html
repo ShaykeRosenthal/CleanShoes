@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="./shoes.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        #result-header {
+            text-decoration: underline;
+            font-size: 1.3rem;
+        }
+
+        #result-display {
+            color: red;
+            font-size: 1.4rem;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        Insert array elements seperated by commas '1,2,1,1'
+    </p>
+    <label for="c">C</label>
+    <input type="text" id="c" placeholder="Clean Shoes C"><br><br>
+    <label for="d">D</label>
+    <input type="text" id="d" placeholder="Dirty Shoes D"><br><br>
+    <label for="k">K</label>
+    <input type="text" id="k" placeholder="Shoes to Wash K"><br><br>
+    <button onclick="insertExampleData()">Insert Given Example Data</button><br><br>
+    <button onclick="calcCleanPairs()">Calculate Clean Pairs</button><br><br>
+    <button onclick="clearData()">Clear Data</button><br>
+    <br>
+    <hr>
+    <br>
+    <span id="result-header">Result</span><br><br><br>
+    <span id="c-display"></span><br><br>
+    <span id="d-display"></span><br><br>
+    <span id="k-display"></span><br><br>
+    <span id="result-display"></span>
+</body>
+
+</html>
